@@ -1,0 +1,289 @@
+body{
+    background: #EEEEEE;
+}
+.headline{
+    position: absolute;
+    width: 386px;
+    height: 118px;
+    left: 407px;
+    top: 328px;
+    text-align: center;
+}
+
+.your-headline{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.lorem{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+.placeholder{
+    position: absolute;
+    width: 386px;
+    height: 118px;
+    left: 565px;
+    top: 280px;
+}
+.section-headline{
+    position: absolute;
+width: 669px;
+height: 119px;
+left: 265px;
+top: 887px;
+}
+
+.tow-lines{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+
+color: #464547;
+}
+
+.lorem-ipsum{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    text-align: center;
+    
+    color: #666666; 
+}
+
+.ipsum-lorem{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.btn-blue{
+    background: #55C2D8;
+border-radius: 18px;
+font-family: 'Oswald Regular';
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+position: absolute;
+left: 41%;
+}
+
+.learn{
+position: absolute;
+width: 1200px;
+height: 666px;
+left: 0px;
+top: 1500px;
+}
+
+.learn-more{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+width: 480px;
+height: 117px;
+left: 340px;
+top: 40px;
+}
+
+.fas{
+    position: absolute;
+  place-items:center;
+    left: 480px;
+    top: 250px;
+    background: #39C2D7;
+    font-size:4rem;
+    color:white;
+    border-radius:50%;
+    padding:4rem;
+  }
+
+  .duis-aute{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #ffffffc2;
+    position: absolute;
+    width: 390px;
+    height: 102px;
+    left: 390px;
+    top: 470px;
+  }
+
+  .footer{
+    position: absolute;
+    width: 1200px;
+    height: 170px;
+    left: 0px;
+    top: 2166px;
+    
+    background: #464547;
+  }
+
+  .project{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+  }
+
+  .street{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+color: rgba(255, 255, 255, 0.4);  
+  }
+
+ .all {
+    position: relative;
+      display: flex;
+    list-style-type: none;
+    margin-left:50% ;
+    bottom: 70%;
+  }
+  
+  .about {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    color: #ffffffc6;
+    margin-left: 30px;
+  }
+  .navbar{
+    display: grid;
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: 152px;
+    top: 40px;
+  }
+  .active{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 16px;
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  }
+
+
+  .fas {
+    animation: spin 5s, zoomInZoomOut 2s;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.897);
+ color: rgba(26, 0, 197, 0.704);
+    }
+    to {
+      transform: rotate(360deg);
+    background-color: blue;
+ color: rgb(2, 2, 156);
+
+    }
+  }
+  
+  @keyframes zoomInZoomOut {
+    0% {
+      transform: scale(1, 1);
+
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+
+    }
+  }
+  .placeholder:hover .animation {
+    transform: rotateY(180deg) translateX(100%);
+  }
+  .placeholder{
+    perspective: 300px;
+  }
+  .animation {
+    transition: 0.7s;
+    transform-style: preserve-3d;
+    transform-origin: right;
+    position: relative;
+    animation: zoomInZoomOut 2s;
+  }
+
+  .btn{
+      transform: rotate(45deg);
+      transition:2s;
+      transform-style: preserve-3d;
+      transform-origin: left;
+      animation:  zoomInZoomOut 3s;
+      
+  }
